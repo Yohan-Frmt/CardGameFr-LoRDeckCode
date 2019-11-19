@@ -183,8 +183,3 @@ class LorDeckCode
     end
   end
 end
-
-deck = LorDeckCode.decode 'CEBAKAIAAMEQWIBNAQAQEEZAG44QEAYBAIGBEMICAEAAOGQBAMAQADY5GQ'
-puts deck.inspect
-puts LorDeckCode.encode deck
-

@@ -13,7 +13,7 @@ gem install base32
 require_relative 'LoRDeckCode'
 
 # Get an Array of Hashes from String
-deck = LorDeckCode.decode 'CEBAKAIAAMEQWIBNAQAQEEZAG44QEAYBAIGBEMICAEAAOGQBAMAQADY5GQ'
+deck = LoRDeckCode.decode 'CEBAKAIAAMEQWIBNAQAQEEZAG44QEAYBAIGBEMICAEAAOGQBAMAQADY5GQ'
 =begin
 [
   {:code=>"01DE003", :count=>3},
@@ -37,6 +37,6 @@ deck = LorDeckCode.decode 'CEBAKAIAAMEQWIBNAQAQEEZAG44QEAYBAIGBEMICAEAAOGQBAMAQA
 =end
 
 # Get String from Array of Hashes
-deck_code = LorDeckCode.encode deck
+deck_code = LoRDeckCode.encode deck
 # CEBAKAIAAMEQWIBNAQAQEEZAG44QEAYBAIGBEMICAEAAOGQBAMAQADY5GQ
 ```

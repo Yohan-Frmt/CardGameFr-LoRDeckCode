@@ -87,7 +87,7 @@ class Factions
   end
 end
 
-class LorDeckCode
+class LoRDeckCode
   def self.encode deck
     result, cards_1, cards_2, cards_3, cards_N = [17], Array.new, Array.new, Array.new, Array.new
     raise 'Deck contains invalid card codes' unless LorDeckCode.isValidCardCodesAndCounts deck

@@ -10,10 +10,10 @@ gem install base32
 ```
 ## Simple Usage
 ```ruby
-require_relative 'LorDeckCode'
+require_relative 'LoRDeckCode'
 
 # Get an Array of Hashes from String
-deck = LorDeckCode.decode 'CEBAKAIAAMEQWIBNAQAQEEZAG44QEAYBAIGBEMICAEAAOGQBAMAQADY5GQ
+deck = LorDeckCode.decode 'CEBAKAIAAMEQWIBNAQAQEEZAG44QEAYBAIGBEMICAEAAOGQBAMAQADY5GQ'
 =begin
 [
   {:code=>"01DE003", :count=>3},
